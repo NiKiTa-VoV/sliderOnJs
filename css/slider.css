@@ -1,0 +1,107 @@
+.infoDiv {
+  padding: 30px 60px 60px 60px;
+  width: max-content;
+  margin: auto;
+  border: 2px #527CCD solid;
+}
+
+.navigateSlider {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnNavigate {
+  height: 50px;
+  width: 50px;
+  color: #527CCD;
+  border: 1px solid #C8D9FB;
+  font-size: 30px;
+  background: white;
+}
+
+.btnNavigate:hover {
+  background: #C8D9FB;
+}
+
+.btnNavigate:active {
+  background: #afc5fc;
+}
+
+.line1 {
+  position: absolute;
+  width: 300px;
+  height: 1px;
+  border-bottom: 3px solid #C8D9FB;
+}
+
+.line2{
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  border-bottom: 3px solid #527CCD;
+
+}
+
+.sliderDiv {
+  max-width: 1101px;
+  margin: 1em auto;
+  position: relative;
+}
+
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.inner {
+  width: 500%;
+  line-height: 0
+}
+
+div .sliderElement {
+  padding: 18px;
+  float: left;
+}
+
+.sliderElement {
+  background: white;
+  height: auto;
+  width: 215px;
+  margin: 10px 10px;
+  border: 2px #527CCD solid;
+}
+
+.imgSElement {
+  width: 215px;
+  height: 160px;
+}
+
+.dateSElement {
+  color: #527CCD;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.titleSElement {
+  color: #527CCD;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.textSElement {
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #527CCD;
+}
